@@ -1,0 +1,28 @@
+# Stuff to ignore
+Mac/
+Mac\ Binary/
+Win/
+Win\ Binary/
+Help\ File/
+Mac\ Standalone/
+Notes/
+am.string-web/
+Matlab/
+am.string-web.zip
+makeZipForWeb.sh
+readme.rtf
+
+
+# If I include xcode project later, stuff to ignore:
+.DS_Store
+*.swp
+*~.nib
+*.lock
+profile
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+xcuserdata
+
