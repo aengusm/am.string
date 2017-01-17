@@ -1,7 +1,7 @@
 # am.string~
 A Karplus-Strong based string synthesizer object for [Cycling '74 Max](https://cycling74.com/products/max/).
 
-The am.string~ object is based on Sullivan's implementation [1] of the Karplus-Strong algorithm for plucked string synthesis [2] though Sullivan's distortion and feedback components are not included. However, instead of using simple linear interpolation to set delay times corresponding to non-integer numbers of samples, it uses a 7th-order Lagrange filter [3] to perform the interpolation. This reduces the low frequency roll-off associated with delay times close to n+0.5 samples. In addition, it is implemented so that any signal can be passed through the 'string' to achieve a variety of resonant filter effects.
+The am.string~ object is based on Sullivan's implementation [1] of the Karplus-Strong algorithm for plucked string synthesis [2] though Sullivan's distortion and feedback components are not included. However, instead of using simple linear interpolation to set delay times corresponding to non-integer numbers of samples, it uses a 7th-order Lagrange filter [3] to perform the interpolation. This reduces the high-frequency roll-off associated with delay times close to n+0.5 samples. In addition, it is implemented so that any signal can be passed through the 'string' to achieve a variety of resonant filter effects.
 
 ## References
 
